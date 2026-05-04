@@ -12,22 +12,6 @@ void main() throws Exception {
     int secondNumber = Integer.parseInt(IO.readln());
 
 
-//    if ("+".equals(sign)) {
-//        result = firstNumber + secondNumber;
-//    } else if ("-".equals(sign)) {
-//        result = firstNumber - secondNumber;
-//    } else if ("*".equals(sign) || "x".equals(sign)) {
-//        result = firstNumber * secondNumber;
-//    } else if ("/".equals(sign) || ":".equals(sign)) {
-//        result = (double) firstNumber / (secondNumber * 1.0);
-//    } else {
-//        isValidSign = false;
-//        System.out.println("Wrong sign!");
-//    }
-//    if (isValidSign) {
-//        printCalculationResult(firstNumber, secondNumber, sign, result);
-//    }
-
     double result = 666;
     boolean isValidSign = true;
     switch (sign) {
