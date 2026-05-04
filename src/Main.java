@@ -28,18 +28,7 @@ void main() throws Exception {
     if (isValidSign) {
         printCalculationResult(firstNumber, secondNumber, sign, result);
     }
-
-
-
-
-//    int sum = firstNumber + secondNumber;
-//    int substraction = firstNumber - secondNumber;
-//    int multiplication = firstNumber * secondNumber;
-//    double division = firstNumber / (secondNumber * 1.0);
-//    printCalculationResult(firstNumber, secondNumber, "+", sum);
-//    printCalculationResult(firstNumber, secondNumber, "-", substraction);
-//    printCalculationResult(firstNumber, secondNumber, "*", multiplication);
-//    printCalculationResult(firstNumber, secondNumber, "/", division);
+    
 
     Thread.sleep(3000);
     System.out.println("\nThanks for choosing Uma's Calculator!");
